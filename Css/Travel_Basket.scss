@@ -1,0 +1,485 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Center{
+    padding-left: calc(50% - 600px);
+    padding-right:calc(50% - 600px) ;
+}
+.Background{
+    background-image: url(Photo/Rectangle\ 30.png);
+    height: 735px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    border-bottom: 0.5px solid white;
+    &_hrefs{
+        color: rgb(255, 255, 255);
+    }
+    &_hrefs:hover{
+        color: rgb(215, 215, 215);
+        text-decoration: underline;
+    }
+    &_search{
+        width: 288px;
+        border:1px solid white;
+        border-radius: 12px;
+        padding-left:25px;
+        padding-top:11px;
+        padding-bottom:11px;
+        background-color: transparent;
+        outline: none;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    &_search::placeholder{
+        color:rgb(255, 255, 255);
+    }
+    &_menu{
+        display: flex;
+        gap:32px;
+    }
+    &_Links{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+    }
+    &_Phone{
+        display: none;
+    }
+    &_Tablet{
+        display: none;
+        &__mainhref{
+            width: 147px;
+            height: 44px;
+        }
+    }
+}
+.Main{
+    display: flex;
+    margin-top: 80px;
+    &_content{
+        width: 100%;
+    }
+    &_ad{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 70px;
+        color: white;
+        margin-top: 127px;
+    }
+    &_menu{
+        display: flex;
+        justify-content: space-between;
+        
+        &__head{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #000000;
+        }
+    }
+    &_product{
+        display: flex;
+        justify-content: space-between;
+        border-top: 0.5px solid #CACDD8;
+        padding-top: 25px;
+        align-items: flex-start;
+        &_item{
+            display: flex;
+            gap: 32px;
+        }
+        &_info{
+            display: flex;
+            flex-direction: column;
+            margin-left: 32px;
+        }
+        &__image{
+            width: 150px;
+            height: 150px;
+        }
+    }
+    &_button{
+        &__clean{
+        width: 230.58px ;
+        margin-top: 30px;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        border: 1px solid #000000;
+        border-radius: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+        &__continue{
+        margin-top: 30px;
+        background-color: transparent;
+        color: rgb(0, 0, 0);
+        border: 1px solid #000000;
+        border-radius: 50px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: center;
+        padding-left: 34px;
+        padding-right: 33px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        }
+    }
+}
+.Product{
+    margin-top:80px;
+    display: flex;
+    background-color: #F7F6F6;
+    padding-top: 30px;
+    &_titel{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+    &_about{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #888888;
+        margin-top: 14px;
+    }
+    &_correct{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #050505;
+        margin-top: 16px;
+    }
+    &_input{
+        width: 71px;
+        height: 51px;
+        border: none;
+        outline: none;
+        background-color: #F7F6F6;
+        display: flex;
+        text-align: center;
+    }
+    &_input:hover{
+        background-color: rgba(233, 233, 233, 0.589);
+    }
+}
+.Popular{
+    &_Content{
+        display: flex;
+        gap:32px;
+    }
+    &_ad{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        font-family: Montserrat;
+        font-size: 45px;
+        color:rgb(74, 124, 224);
+    }   
+}
+.Href{
+    margin-top: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #486A93;
+    &_tag{
+    color:#486A93;
+    }
+}
+.Footer{
+    margin-top:80px;
+    display: flex;
+    background-color: #F7F6F6;
+    padding-top: 30px;
+
+    &_titel{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #486A93;
+}
+    &_text{
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #888888;
+        text-decoration: none;
+    }
+    &_text:hover{
+        color: #929292;
+        text-decoration: underline;}
+    &__logo{
+        margin-right: 200px;
+    }
+    &_content{
+        gap:130px;
+        display:flex;
+        color:#486A93;
+        &_icon{
+            display: flex;
+            gap:20px;
+        }
+        &__menu{
+            display: flex;
+            flex-direction: column;
+            gap:12px;
+            color: #888888;
+        }
+        &__contact{
+            display: flex;
+            flex-direction: column;
+            gap:12px;
+            color: #888888;
+        }
+    }
+    &_form{
+        &__text{
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 15px;
+            color: #000000;
+        }
+        &__input{
+            background-color: #FFFFFF;
+            border: 1px solid #C4C4C4;
+            border-radius: 20px;
+            height:46px ;
+            width:250px;
+            padding-left:25px;
+            margin-top: 12px;
+        }
+        &__button{
+            margin-top: 12px;
+            background: #486A93;
+            border: 1px solid #FFFFFF;
+            border-radius: 20px;
+            width: 275px ;
+            height: 46px;
+            color:white;
+        }
+        &__button:hover{
+            background: #5f8cc3;
+        }
+    }
+}
+.Product{
+    background-color: rgba(135, 190, 255, 0.4);
+    border-radius: 12px;
+    width:370px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 16px ;
+    padding-bottom: 28px;
+    display: flex;
+    flex-direction: column;
+
+    &_Titel{
+        font-family: 'Montserrat';
+        font-size: 24px;
+        color:rgb(109, 109, 109);
+        padding-bottom: 10px;
+    }
+    &_about{
+        font-family: 'Montserrat';
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    &_correct{
+        font-family: 'Montserrat';
+        font-size: 24px;
+    }
+    &_cross{
+        font-family: 'Montserrat';
+        font-size: 24px;
+        text-decoration-line: line-through;
+        margin-top: 17px;
+    }
+    &_button{
+        margin-top: 30px;
+        width:129px;
+        height: 40px;
+        background-color: rgb(74, 124, 224);
+        color: white;
+        padding-left:39px;
+        padding-right:39px;
+        border: none;
+        border-radius:10px;
+    }
+    &_Image{
+        width:100%;
+    }
+    &_price{
+        display: flex;
+        gap:15px;
+    }
+}
+.Booking{
+    background: #F7F6F6;
+    border-radius: 20px;
+    margin-left: 38px;
+    height: 556px;
+    width: 379px;
+    &_title{
+    margin-left: 40px;
+    margin-top: 42px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+    }
+    &_Input{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #CACDD8;
+    flex-direction: column;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    background: transparent;
+    }
+    &_inputs{
+    margin-top: 35px;
+    display: flex;
+    gap: 41px;
+    flex-direction: column;
+    margin-right: 64px;
+    margin-left: 64px;
+    }
+    &_button{
+    margin-left: 52px;
+    margin-right: 52px;
+    margin-top: 18px;
+    width: 274px;
+    height: 45px;
+    background: #486A93;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+}
+@media(max-width:375px){
+    .Header{
+        display: none;
+    }
+    .Header{
+    &_Phone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 48px;
+    }
+    &_photo{
+        display:flex;
+        width:100px;
+    }
+    }
+}
+@media (max-width: 834px){
+    .Center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .Header{
+    border-bottom: 0.5px solid white;
+    }
+    .Footer__logo{
+        display: none;
+    }
+}
+
+@media(min-width:320px) and (max-width:380px){
+
+    .Center{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .Header{
+        display: flex;
+        width: 786px;
+    }
+    .Header{
+    &_Links{
+        &__search{
+            width:15px;
+            height: 15px;
+        }
+        &__catalog{
+            width: 15px;
+            height: 15px;
+        }
+        &__basket{
+            width: 15px;
+            height: 15px;
+        }
+    }
+    &_Phone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 48px;
+    }
+    &_photo{
+        display:flex;
+        width:48px;
+        height: 46px;
+    }
+    }
+}

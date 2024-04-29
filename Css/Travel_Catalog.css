@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+
+.Background {
+  background-image: url(Photo/Rectangle\ 29.png);
+  height: 735px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-bottom: 0.5px solid white;
+}
+.Header_hrefs {
+  color: rgb(255, 255, 255);
+}
+.Header_hrefs:hover {
+  color: rgb(215, 215, 215);
+  text-decoration: underline;
+}
+.Header_search {
+  width: 288px;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding-left: 25px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  background-color: transparent;
+  outline: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.Header_search::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+.Header_search::placeholder {
+  color: rgb(255, 255, 255);
+}
+.Header_menu {
+  display: flex;
+  gap: 32px;
+}
+.Header_Links {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+}
+.Header_Phone {
+  display: none;
+}
+.Header_Tablet {
+  display: none;
+}
+.Header_Tablet__mainhref {
+  width: 147px;
+  height: 44px;
+}
+
+.Main_ad {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 70px;
+  color: white;
+  margin-top: 127px;
+}
+.Main_menu {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+.Main_menu__head {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+.Main_menu__head___extra::after {
+  content: " /";
+}
+.Main_menu__head___select {
+  width: 199px;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+.Main_menu__head___select_options {
+  background-color: rgba(224, 224, 224, 0.5882352941);
+}
+.Main_menu__head___select_options:hover {
+  background-color: rgba(228, 228, 228, 0.4);
+}
+
+.Main_Cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.Product {
+  background-color: rgba(135, 190, 255, 0.4);
+  border-radius: 12px;
+  width: 370px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 16px;
+  padding-bottom: 28px;
+  display: flex;
+  flex-direction: column;
+}
+.Product_Titel {
+  font-family: "Montserrat";
+  font-size: 24px;
+  color: rgb(109, 109, 109);
+  padding-bottom: 10px;
+}
+.Product_about {
+  font-family: "Montserrat";
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.Product_correct {
+  font-family: "Montserrat";
+  font-size: 24px;
+}
+.Product_cross {
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-decoration-line: line-through;
+}
+.Product_button {
+  margin-top: 30px;
+  width: 129px;
+  height: 40px;
+  background-color: rgb(74, 124, 224);
+  color: white;
+  padding-left: 39px;
+  padding-right: 39px;
+  border: none;
+  border-radius: 10px;
+}
+.Product_Image {
+  width: 100%;
+}
+.Product_price {
+  display: flex;
+  gap: 15px;
+}
+
+.Footer {
+  margin-top: 80px;
+  display: flex;
+  background-color: #F7F6F6;
+  padding-top: 30px;
+}
+.Footer_titel {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #486A93;
+}
+.Footer_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #888888;
+  text-decoration: none;
+}
+.Footer_text:hover {
+  color: #929292;
+  text-decoration: underline;
+}
+.Footer__logo {
+  margin-right: 200px;
+}
+.Footer_content {
+  gap: 130px;
+  display: flex;
+  color: #486A93;
+}
+.Footer_content_icon {
+  display: flex;
+  gap: 20px;
+}
+.Footer_content__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #888888;
+}
+.Footer_content__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: #888888;
+}
+.Footer_form__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
+}
+.Footer_form__input {
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 20px;
+  height: 46px;
+  width: 250px;
+  padding-left: 25px;
+  margin-top: 12px;
+}
+.Footer_form__button {
+  margin-top: 12px;
+  background: #0073ff;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  width: 275px;
+  height: 46px;
+  color: white;
+}
+.Footer_form__button:hover {
+  background: #5f8cc3;
+}
+
+.Href {
+  margin-top: 64px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #486A93;
+}
+.Href_tag {
+  color: #486A93;
+}
+
+@media (max-width: 375px) {
+  .Header {
+    display: none;
+  }
+  .Header_Phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+  }
+  .Header_photo {
+    display: flex;
+    width: 100px;
+  }
+}
+@media (max-width: 834px) {
+  .Center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .Header {
+    border-bottom: 0.5px solid white;
+  }
+  .Footer__logo {
+    display: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 380px) {
+  .Center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .Header {
+    display: none;
+  }
+  .Header_Links__search {
+    width: 15px;
+    height: 15px;
+  }
+  .Header_Links__catalog {
+    width: 15px;
+    height: 15px;
+  }
+  .Header_Links__basket {
+    width: 15px;
+    height: 15px;
+  }
+  .Header_Phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 48px;
+  }
+  .Header_photo {
+    display: flex;
+    width: 48px;
+    height: 46px;
+  }
+}/*# sourceMappingURL=Travel_Catalog.css.map */
